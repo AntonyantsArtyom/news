@@ -1,0 +1,29 @@
+.news {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--color-dark);
+  width: 100%;
+  height: min-content;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > span {
+  font-size: 18px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.date {
+  min-width: fit-content;
+}
+
+.highlight {
+  background-color: var(--color-warning);
+}
